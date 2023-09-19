@@ -1,4 +1,4 @@
-from engine.main import Engine
+from main import Engine
 
 class WilloughbyEngine(Engine):
     def __init__(self, current_mileage, last_service_mileage):
@@ -7,3 +7,4 @@ class WilloughbyEngine(Engine):
 
     def needs_service(self):
         return self.current_mileage - self.last_service_mileage > 60000
+    

@@ -1,4 +1,4 @@
-from battery.main import Battery
+from main import Battery
 from dateutil.relativedelta import relativedelta
 
 class SpindlerBattery(Battery):

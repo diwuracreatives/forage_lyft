@@ -1,4 +1,4 @@
-from engine.main import Engine
+from main import Engine
 
 class SternmanEngine(Engine):
     def __init__(self, is_warning_light_on):
